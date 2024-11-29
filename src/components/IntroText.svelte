@@ -40,21 +40,26 @@
   article {
     padding: 4rem 0rem;
     color: white;
-    max-width: 80%;
+    max-width: 50%;
     margin: auto;
   }
 
   section {
     min-height: 60vh;
-    max-width: 50%;
     margin: auto;
+  }
+
+  @media (max-width: 1024px) {
+    article {
+      max-width: 80%;
+    }
   }
 
   h1 {
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 4rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   p {

@@ -270,7 +270,7 @@
 
 <style>
   :global(html) {
-    background: #2e2e2e;
+    background: #14151d;
   }
 
   :global(p) {

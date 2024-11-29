@@ -157,13 +157,7 @@
   .chart-container {
     height: 100%;
     width: 100%;
-    /* margin-top: 0rem; */
-    /* max-width: 700px;
-    max-height: 450px; */
-    /* background: white; */
-    /* border: 1px solid plum; */
     border-radius: 5px;
-    /* box-shadow: 1px 1px 30px rgba(252, 220, 252, 1); */
   }
 
   .sticky {
@@ -175,10 +169,5 @@
     display: flex;
     align-items: center;
     justify-items: center;
-  }
-
-  p {
-    margin-bottom: 0;
-    line-height: normal;
   }
 </style>
