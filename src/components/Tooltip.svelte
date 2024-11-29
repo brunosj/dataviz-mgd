@@ -98,18 +98,6 @@
     margin-bottom: 12px;
   }
 
-  .bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3px;
-    width: 100%;
-  }
-
-  .bar .background {
-    background: #eee;
-  }
-
   img {
     width: 6rem;
     height: 6rem;

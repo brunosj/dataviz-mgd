@@ -31,7 +31,7 @@
   let genres;
 
   onMount(async () => {
-    data = await tsv('src/data/data-with-regions.csv', (row) => ({
+    data = await tsv('/data-with-regions.csv', (row) => ({
       artist_id: row.artist_id,
       name: row.name,
       followers: +row.followers,
